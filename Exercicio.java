@@ -8,7 +8,7 @@ public class Exercicio {
 
 		double[] notasAlunoA = new double[4];
 		
-		notasAlunoA[0] = 7.9; 
+		notasAlunoA[0] = 6.5; 
 		notasAlunoA[1] = 8; 
 		notasAlunoA[2] = 6.7; 
 		notasAlunoA[3] = 9.7; 
@@ -20,7 +20,7 @@ public class Exercicio {
 			totalAlunoA += notasAlunoA[i];
 		}
 	
-		System.out.printf("A média do aluno é %.1f\n", totalAlunoA / 4);
+		System.out.printf("A mÃ©dia do aluno Ã© %.1f\n", totalAlunoA / 4);
 		
 		double[] notasAlunoB = { 7.9, 8.9, 6.7, 9.7 };
 		
@@ -28,7 +28,7 @@ public class Exercicio {
 		for (int i = 0; i < notasAlunoB.length; i++) {
 			totalAlunoB += notasAlunoB[i];
 		}
-		System.out.printf("A média do aluno é %.1f", totalAlunoB / 4);
+		System.out.printf("A mÃ©dia do aluno Ã© %.1f", totalAlunoB / 4);
 	}
 
 }
